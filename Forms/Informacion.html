@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="background-color: #caebf2; font-family:Arial, Helvetica, sans-serif;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.unah.edu.hn/themes/portalunah/assets/images/logo-unah.png" alt="" width="168" height="100" class="d-inline-block align-text-center">
+                    Consumo API Rest Grupo 5
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Forms/Home.html">Home</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Formularios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/G5_20_Avance_Final/Forms/Socio.html">Socios</a></li>
+                      <li><a class="dropdown-item" href="/G5_20_Avance_Final/Forms/Materiales.html">Materiales</a></li>
+                      <li><a class="dropdown-item" href="/G5_20_Avance_Final/Forms/Pedidos.html">Pedidos</a></li>
+                      <li><a class="dropdown-item" href="/G5_20_Avance_Final/Forms/Facturas_Cliente.html">Facturas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="/G5_20_Avance_Final/Forms/Informacion.html">Información</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="consulta mt-4" >
+            <div class="row">
+                <div class="col-6">
+                    <h3>
+                        Integrantes Grupo 5.
+                    </h3>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="table table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Formulario desarrollado</th>
+                                <th>Explicación de cada una de las funciones del Formulario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Erick Joel Castillo Diaz</td>
+                                <td>Socios</td>
+                                <td>
+                                    <table class="table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Funcion</th>
+                                                <th>Descripción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cargar Socios</td>
+                                                <td>Muestra en el formulario todos los registros de la entidad socios por medio de la implementación de la API GetSocios. </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Agregar Socios</td>
+                                                <td>Nos permite crear un nuevo registro en la base de datos una vez ingresados los datos en los campos del formulario y dar click en el botón Ingresar socio.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cargar Socio</td>
+                                                <td>Muestra la información en los campos del formulario al momento de dar click en el botón editar de un registro en específico, de manera que podamos editarlos.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Actualizar Socios</td>
+                                                <td>Nos permite actualizar la información de un registro.  Una vez obtenida y editada la información con la función cargar socio, damos click en el botón Actualizar socio.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eliminar Socios</td>
+                                                <td>Elimina un registro cuando damos click en el botón eliminar de un registro en específico</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Wilmer David Ochoa Triminio</td>
+                                <td>Materiales</td>
+                                <td>
+                                    <table class="table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Funcion</th>
+                                                <th>Descripción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cargar Materiales</td>
+                                                <td>Hicimos nuestra funcion cargar materiales en la cual haremos la implementacion de  lo mismo que se uso en postman "GET" y la cual nos mostrtodos los valores ingresados en nuestra base de datos
+                                            </tr>
+                                            <tr>
+                                                <td>Agregar Material</td>
+                                                <td>En esta funcion no se manda parametros la cual nos servira para insertar un material y la cual utiliza un metodo "POST"</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Editar Material</td>
+                                                <td>Muestra la información en los campos del formulario al momento de dar click en el botón editar de un registro en específico, de manera que podamos editarlos y utilizamos metodo "POST"</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Actualizar Material</td>
+                                                <td>Nos permitira actualizar u editar la informacion de un registro una vez seleccionada la opcion a actualizar nos apararecera dicha informacion a editar luego le damos en actualizar y se nos actualizara  y se utilizo metodo "PUT"</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eliminar Materiales</td>
+                                                <td>Nos Eliminara un registro Seleccionado de nuestro Data grid y el metodo que utilizamos es "DELETE"</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Andrea Melissa Alvarez Herrera</td>
+                                <td>Pedidos</td>
+                                <td>
+                                    <table class="table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Funcion</th>
+                                                <th>Descripción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cargar Pedidos</td>
+                                                <td>En el formulario muestra todos los registros que estan agregados en la tabla de pedidos_proveedor, por medio del uso de la API GetPedidos.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Agregar Pedido</td>
+                                                <td>Esta permite la creación de un nuevo pedido, una vez ingresados todos los datos solicitados se seleccona el boto de agregar pedido y automaticamente agrega los datos a la base.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cargar Pedido</td>
+                                                <td>Muestra la información de un dato en especifico, al momento de dar click en el botón de editar el registro deceado permitiendo que sea editado./td>
+                                            </tr>
+                                            <tr>
+                                                <td>Actualizar Pedido</td>
+                                                <td>Permite actualizar los datos de un registro que sea ingresado anteriormente, una vez que sea modificado los datos se le da click al boto de actualizar pedido y automaticamente se realiza los cambios en la tabla. </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eliminar Pedido</td>
+                                                <td>Esta funcion nos permite eliminar un regristro de la base de datos cuando se da click en el boton eliminar cuando se selecciona un regristro en particular.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sindy Fabiola Chavez Caseres</td>
+                                <td>Factura</td>
+                                <td>
+                                    <table class="table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Funcion</th>
+                                                <th>Descripción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cargar Facturas</td>
+                                                <td>En la API GetFacturas como su nombre lo indica se muestra en el formulario todos los regristros que estan en la base de datos de la entidad facturas.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Agregar Factura</td>
+                                                <td>Se utiliza para poder insertar un nuevo regristro en la base de datos, se deben de ingresar todos los datos para que nos devuelva un mensaje satifactorio de que se inserto correctamente en el boton Ingresar factura y lo muestre en el formulario.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cargar Factura</td>
+                                                <td>Nos muestra la informacion de los campos del formulario con solo dar un click en el boton editar para hacer un cambio en los datos.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Actualizar Factura</td>
+                                                <td>Si deseamos actualizar la informacion de los campos que estan en el regristro, despues de hacer sido editada tenemos que dar click en el boton Actualizar factura para que se muestre en el formulario.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eliminar Factura</td>
+                                                <td>Esta funcion elimina un registro cuando damos click en el botón eliminar cuando seleccionamos un regristro en especifico.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
