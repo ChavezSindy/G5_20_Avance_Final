@@ -1,0 +1,45 @@
+body{
+    background-color:rgba(8, 234, 250, 0.973);
+}
+
+h3{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    text-align:center;
+    font-size: 40px;
+    margin: auto;
+    
+    
+}
+
+
+.Ma{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    text-align:center;
+    font-size: 40px;
+    height: 30px;
+    
+}
+
+tr{
+   
+    
+    line-height: 2px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 15px;
+    
+}
+
+.form-control{
+    background-color: rgb(128, 222, 248);
+    
+       
+}
+
+
+
+
